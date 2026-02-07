@@ -63,7 +63,7 @@ export default function Home () {
 
     fetchFeeds();
   
-    }, []);
+    });
 
     return (
         
@@ -80,3 +80,4 @@ export default function Home () {
         </div>
     )
 };
+
