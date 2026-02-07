@@ -130,7 +130,7 @@ export default function Signup () {
                     <div className="w-full flex flex-col gap-4 p-4">
 
                         <div>
-                            <img src={require('../assets/images/logo.jpg')} className="h-12 rounded-xl" alt="image"/>
+                            <img src={require('../assets/images/logo.jpg')} className="h-12 rounded-xl" alt=""/>
                         </div>
 
                         <div className="flex flex-col gap-2 mb-4">
@@ -167,4 +167,5 @@ export default function Signup () {
     );
 
 };
+
 
