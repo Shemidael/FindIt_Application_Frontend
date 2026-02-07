@@ -17,7 +17,7 @@ export default function AccountUpdateModal ({ onClose }) {
             <div className="xl:w-[40%] lg:w-[50%] md:w-[80%] sm:w-[80%] flex flex-col sm:flex-row gap-4 p-2 sm:p-4 box-border bg-white rounded-2xl">
                 <div className=" w-full sm:w-[40%]">
                     <div className="w-full relative h-60 overflow-hidden rounded-2xl shadow-lg">
-                        <img src={require('../assets/images/feed.jpg')} className="w-full h-hull object-cover"/>
+                        <img src={require('../assets/images/feed.jpg')} className="w-full h-hull object-cover" alt="image"/>
                         <label htmlFor="profile_upload_btn" className="absolute top-0 left-0 h-full w-full bg-[#00000020] flex flex-col items-center justify-center text-white cursor-pointer">
                             <BsCameraFill size={40}/>
                             <p className="text-md font-semibold text-center">Click to change photo</p>
@@ -49,4 +49,5 @@ export default function AccountUpdateModal ({ onClose }) {
             </div>
         </div>
     );
+
 };
