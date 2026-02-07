@@ -86,8 +86,8 @@ export default function Login () {
         <section className="w-full h-full flex flex-row items-center">
             
             <section className="hidden lg:visible md:w-[30%] lg:[w-30%] p-4 box-border h-full lg:flex flex-col items-start justify-between bg-gradient-to-b from-color_primary-100 to-color_secondary-100">
-                <img src={require('../assets/images/logo-icon.jpg')} className="h-12 rounded-xl"/>
-                <img src={require('../assets/images/phone.png')} className="h-80"/>
+                <img src={require('../assets/images/logo-icon.jpg')} className="h-12 rounded-xl" alt="image"/>
+                <img src={require('../assets/images/phone.png')} className="h-80" alt="image"/>
                 <p className="text-sm text-white">All Missing document deserver to be <b>found</b> !</p>
             </section>
 
@@ -99,7 +99,7 @@ export default function Login () {
                     <div className="w-full flex flex-col gap-4 p-4">
 
                         <div>
-                            <img src={require('../assets/images/logo.jpg')} className="h-12 rounded-xl"/>
+                            <img src={require('../assets/images/logo.jpg')} className="h-12 rounded-xl" alt="image"/>
                         </div>
 
                         <div className="flex flex-col gap-2 mb-4">
@@ -135,4 +135,5 @@ export default function Login () {
             </section>
         </section>
     );
+
 };
