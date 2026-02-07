@@ -119,7 +119,7 @@ export default function Signup () {
         <section className="w-full h-full sm:flex xl:flex-row sm:flex-col items-center sm:overflow-scroll">
             
             <section className="lg:w-[30%] w-full p-4 box-border h-full hidden xl:block flex-col items-start justify-between bg-gradient-to-b  from-color_primary-100 to-color_secondary-100">
-                <img src={require('../assets/images/logo-icon.jpg')} className="h-12 rounded-xl" alt="image"/>
+                <img src={require('../assets/images/logo-icon.jpg')} className="h-12 rounded-xl" alt=""/>
             </section>
             
             <section className="xl:w-[70%] w-full h-full flex flex-col items-center justify-center xl:overflow-scroll relative">
@@ -167,3 +167,4 @@ export default function Signup () {
     );
 
 };
+
