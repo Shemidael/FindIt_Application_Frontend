@@ -1,0 +1,7 @@
+@media (max-width: 650px) {
+
+    .section {
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+}

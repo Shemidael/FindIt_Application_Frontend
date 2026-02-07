@@ -1,0 +1,15 @@
+.activity-indicator {
+
+    animation: rotate 0.1s infinite;
+}
+
+@keyframes rotate {
+    
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+};

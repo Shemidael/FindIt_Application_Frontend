@@ -1,0 +1,15 @@
+.increase-animation {
+
+    animation: increase 0.1s;
+}
+
+@keyframes increase {
+
+    0% {
+        width: 10%;
+    }
+    
+    100% {
+        width: 100%;
+    }
+};
