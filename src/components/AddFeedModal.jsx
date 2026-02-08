@@ -51,7 +51,7 @@ export default function AddFeedModal ({ onCloseModal }) {
             formdata.append(feild, form[feild]);
         });
 
-        await axios.post('${BACKEND_URL}/api/feed/create', formdata)
+        await axios.post(`${BACKEND_URL}/api/feed/create`, formdata)
 
             .then((response) => {
 
@@ -149,3 +149,4 @@ export default function AddFeedModal ({ onCloseModal }) {
     );
 
 };
+
