@@ -6,6 +6,8 @@ import { alert } from "../redux/reducers/alert";
 
 import axios from "axios";
 
+import { BACKEND_URL } from "../utilities/config.js";
+
 import Input from './Input';
 
 import ActivityIndicator from "./ActivityIndicator";
@@ -49,7 +51,7 @@ export default function AddFeedModal ({ onCloseModal }) {
             formdata.append(feild, form[feild]);
         });
 
-        await axios.post('http://localhost:5000/api/feed/create', formdata)
+        await axios.post('${BACKEND_URL}/api/feed/create', formdata)
 
             .then((response) => {
 
@@ -145,4 +147,5 @@ export default function AddFeedModal ({ onCloseModal }) {
             </div>
         </div>
     );
+
 };
