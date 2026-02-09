@@ -55,7 +55,7 @@ export default function HomeSection () {
         
         <div className="section w-full h-full flex justify-center">
 
-            <div className="xl:w-[40%] lg:w-[50%] md:w-[80%] sm:w-[80%] h-full flex flex-col justify-start gap-2 box-border">
+            <div className="xl:w-[40%] lg:w-[50%] md:w-[80%] sm:w-[80%] p-2 sm:p-0 h-full flex flex-col justify-start gap-2 box-border">
                 
                 <div className="w-full p-4 gap-2 flex flex-col border bg-white rounded-lg">
                     
@@ -89,4 +89,5 @@ export default function HomeSection () {
             </div>
         </div>
     );
+
 };
